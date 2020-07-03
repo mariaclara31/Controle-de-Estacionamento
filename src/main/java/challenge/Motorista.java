@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Motorista {
 
-    private static final int IDADE_SENIOR = 55;
-    private final int IDADE_MINIMA_PARA_CARTEIRA = 18;
-    private final int MAXIMO_DE_PONTOS_NA_CARTEIRA = 20;
+    public static final int IDADE_SENIOR = 55;
+    public static final int IDADE_MINIMA_PARA_CARTEIRA = 18;
+    public static final int MAXIMO_DE_PONTOS_NA_CARTEIRA = 20;
 
     private final String nome;
     private final int idade;
